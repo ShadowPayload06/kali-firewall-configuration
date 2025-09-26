@@ -1,0 +1,16 @@
+Install UFW
+
+Command:
+sudo apt install ufw
+
+Purpose:
+Install Uncomplicated Firewall (UFW) to manage firewall rules easily on Kali Linux Purple.
+
+Verification:
+Package installed successfully via apt. No errors reported.
+
+Screenshot:
+screenshots/enable_ufw.png
+
+Notes:
+UFW was not pre-installed on Kali Purple. Installed manually to proceed with firewall configuration.

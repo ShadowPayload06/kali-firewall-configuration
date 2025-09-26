@@ -1,0 +1,21 @@
+Allow SSH (Port 22)
+
+Command:
+sudo ufw allow 22/tcp
+
+Purpose:
+Enable secure remote access via SSH, commonly used for remote administration and file transfer.
+
+Verification:
+Run:
+sudo ufw status numbered
+
+Expected output includes:
+[ 3] 22/tcp                   ALLOW IN    Anywhere  
+[ 4] 22/tcp (v6)              ALLOW IN    Anywhere (v6)
+
+Screenshot:
+screenshots/allow_ssh.png
+
+Notes:
+SSH is essential for remote management and secure file transfer. This rule ensures encrypted access while keeping Telnet blocked.

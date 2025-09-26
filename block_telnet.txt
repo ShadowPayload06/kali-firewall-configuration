@@ -1,0 +1,18 @@
+Block Telnet (Port 23)
+
+Command:
+sudo ufw deny 23/tcp
+
+Purpose:
+Prevent insecure remote access via Telnet, which transmits data in plaintext and poses a security risk.
+
+Verification:
+Run:
+sudo ufw status numbered
+
+Expected output includes:
+[ 1] 23/tcp                   DENY IN    Anywhere  
+[ 2] 23/tcp (v6)              DENY IN    Anywhere (v6)
+
+Screenshot:
+screenshots/block_telnet.png

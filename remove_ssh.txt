@@ -1,0 +1,14 @@
+Command used:
+sudo ufw delete allow 22/tcp (x2)
+
+Purpose:
+Simulate rollback of SSH rule to demonstrate responsible firewall management.
+
+Verification:
+Confirmed via sudo ufw status numbered — port 22 no longer listed.
+
+screenshot:
+screenshots/remove_ssh.png
+
+Notes:
+This shows ability to reverse firewall changes cleanly, useful for testing, troubleshooting, or policy updates.

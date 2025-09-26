@@ -1,0 +1,28 @@
+Document Commands Used (CLI Only)
+
+Firewall Configuration Summary — Kali Linux Purple
+
+Step 1: Install UFW
+sudo apt install ufw
+
+Step 2: Enable UFW
+sudo ufw enable
+
+Step 3: Block Telnet (Port 23)
+sudo ufw deny 23/tcp
+
+Step 4: Verify Telnet Block
+sudo ufw status numbered
+
+Step 5: Allow SSH (Port 22)
+sudo ufw allow 22/tcp
+
+Step 6: Remove SSH Rule (Rollback)
+sudo ufw delete allow 22/tcp
+sudo ufw delete allow 22/tcp
+
+Notes:
+- All commands executed on Kali Linux Purple terminal.
+- Each rule verified using: sudo ufw status numbered
+- Screenshots saved in: screenshots
+- Each step documented in: stepX_description.txt

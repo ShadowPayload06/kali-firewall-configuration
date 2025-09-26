@@ -1,0 +1,21 @@
+Validate Firewall Rules
+
+Telnet Test (Port 23)
+Command:
+telnet localhost 23
+
+Result:
+Connection refused — confirms Telnet is blocked.
+
+SSH Test (Port 22)
+Command:
+ssh sukuna@XX.X.X.XX -(ip address)
+
+screenshot:
+screenshots/conection_tests.png
+
+Result:
+SSH connection successful — confirms SSH is allowed.
+
+Notes:
+These tests validate that firewall rules are enforced correctly. Screenshots saved in screenshots/step8/.

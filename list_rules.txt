@@ -1,0 +1,17 @@
+Command used:
+sudo ufw status verbose
+
+Output:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+Notes:
+- Firewall is active and logging is enabled.
+- Incoming traffic is denied by default, ensuring a secure posture.
+- Outgoing traffic is allowed, which supports normal system operations.
+- No custom rules yet — ready to begin rule configuration.
+
+screenshot:
+screenshots/status_verbose
