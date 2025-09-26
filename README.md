@@ -1,4 +1,4 @@
-Kali Firewall Configuration — Internship Deliverable
+Kali Firewall Configuration — Internship
 
 This repository documents a complete firewall configuration workflow using UFW (Uncomplicated Firewall) on Kali Linux Purple
 
